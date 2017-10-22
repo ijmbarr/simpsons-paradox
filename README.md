@@ -1,0 +1,1 @@
+Generating examples of Simpson's Paradox.
