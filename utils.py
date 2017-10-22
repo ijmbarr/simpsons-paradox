@@ -54,5 +54,6 @@ def create_table(df):
         p1s = wrap(p1s, "b")
 
     table += wrap(wrap_list(["total:", f0, p0s, f1, p1s], "td"), "tr")
+    table = wrap(table, "table")
 
     return table
